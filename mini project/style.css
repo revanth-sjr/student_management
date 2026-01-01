@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #f1f4f9;
+}
+
+/* AUTH PAGES */
+.auth-body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.auth-card {
+    background: white;
+    padding: 30px;
+    width: 320px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.25);
+}
+
+.auth-card input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.auth-card button {
+    width: 100%;
+    padding: 10px;
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* DASHBOARD */
+nav {
+    background: #333;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav button {
+    background: crimson;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.dashboard {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.form-card, .table-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.form-card {
+    width: 30%;
+}
+
+.form-card input {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+}
+
+.form-card button {
+    width: 100%;
+    padding: 8px;
+    background: green;
+    color: white;
+    border: none;
+}
+
+.table-card {
+    width: 70%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #444;
+    color: white;
+}
+
+td, th {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
