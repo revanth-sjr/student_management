@@ -1,5 +1,5 @@
 if (localStorage.getItem("isLoggedIn") !== "true") {
-    window.location.href = "login.html";
+    window.location.href = "index.html";
 }
 
 document.getElementById("adminName").innerText =
